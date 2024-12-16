@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">S4_Introduccion</string>
+
+    <string name="texto_usuario">Usuarios</string>
+    <string name="texto_pasword">Contraseña</string>
+    <string name="texto_ingresar">Ingresar</string>
+</resources>

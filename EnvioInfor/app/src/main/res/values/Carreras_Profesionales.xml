@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CarrerasProd">
+        <item>Seleccione una Carrera</item>
+        <item>Desarrollo de Sistemas</item>
+        <item>Medicina Humana</item>
+        <item>Contabilidad</item>
+        <item>Administracion de Empresas</item>
+        <item>Ingenieria Civil</item>
+        <item>Psicologia</item>
+    </string-array>
+</resources>

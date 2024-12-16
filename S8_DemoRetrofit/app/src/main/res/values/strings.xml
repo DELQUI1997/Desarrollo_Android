@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">S8_DemoRetrofit</string>
+
+    <string name="texto_pagina_a_buscar">Ingrese la pagina a buscar</string>
+    <string name="boton_listar_usuarios">Listar  Usuarios</string>
+    <string name="boton_agregar_usuario">Agregar Usuario</string>
+</resources>

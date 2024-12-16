@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "442506720948",
+    "project_id": "decormania-5643a",
+    "storage_bucket": "decormania-5643a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442506720948:android:cd585559e0aa4b4ed209e1",
+        "android_client_info": {
+          "package_name": "idat.aplication.decormania"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpLjt4lBv8Lunjf3dU7FXXyG20q2TCqXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

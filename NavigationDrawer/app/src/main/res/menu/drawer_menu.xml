@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Principal">
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/baseline"
+                android:title="home">
+
+            </item>
+
+            <item
+                android:id="@+id/personas"
+                android:icon="@drawable/baseline_account"
+                android:title="personas">
+
+            </item>
+        </menu>
+
+</item>
+
+    <item android:title="Secundario">
+        <menu>
+            <item
+                android:id="@+id/home2"
+                android:icon="@drawable/baseline"
+                android:title="home">
+
+            </item>
+
+            <item
+                android:id="@+id/personas2"
+                android:icon="@drawable/baseline_account"
+                android:title="personas">
+
+            </item>
+        </menu>
+
+    </item>
+
+</menu>
+

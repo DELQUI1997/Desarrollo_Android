@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/celeste"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Decor Dulcemnia "
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                app:srcCompat="@drawable/edt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/green"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="148dp"
+                android:layout_height="101dp"
+                android:layout_gravity="center_horizontal"
+                android:outlineProvider="background"
+                android:src="@drawable/sin" />
+
+            <Button
+                android:id="@+id/venta"
+                android:layout_width="220dp"
+                android:layout_height="123dp"
+                android:layout_gravity="center"
+                android:background="@drawable/regla"
+                android:text="Ventas"
+                android:textColor="#090000"
+                android:textSize="48sp">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/orange"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="148dp"
+                android:layout_height="112dp"
+                android:layout_gravity="center_horizontal"
+                android:outlineProvider="background"
+                android:src="@drawable/carro" />
+
+            <Button
+                android:id="@+id/pedido"
+                android:layout_width="220dp"
+                android:layout_height="123dp"
+                android:layout_gravity="center"
+                android:background="@drawable/regla"
+                android:text="Pedidos"
+                android:textColor="#090000"
+                android:textSize="45sp">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/rosa"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="148dp"
+                android:layout_height="101dp"
+                android:layout_gravity="center_horizontal"
+                android:outlineProvider="background"
+                android:src="@drawable/neu" />
+
+            <Button
+                android:id="@+id/cliente"
+                android:layout_width="220dp"
+                android:layout_height="123dp"
+                android:layout_gravity="center"
+                android:background="@drawable/regla"
+                android:text="Clientes"
+                android:textColor="#090000"
+                android:textSize="45sp">
+
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

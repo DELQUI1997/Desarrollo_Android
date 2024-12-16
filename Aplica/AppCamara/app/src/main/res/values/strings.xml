@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppCamara</string>
+
+    <string name="texto_cagar_foto">Cagar Foto</string>
+    <string name="texto_tomar_foto">Tomar Foto</string>
+    <string name="texto_guardar_foto">Guardar Foto</string>
+    <string name="texto_imagen_foto">Imagen guardada correctamente</string>
+
+</resources>

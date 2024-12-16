@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagen_persona"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <TextView
+            android:id="@+id/nombre_persona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre de la Persona"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/imagen_persona"
+            android:layout_toEndOf="@+id/imagen_persona"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/fecha_nacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1997-05-07"
+            android:textSize="25sp"
+            android:layout_toRightOf="@+id/imagen_persona"
+            android:layout_below="@+id/nombre_persona"
+            android:layout_toEndOf="@+id/imagen_persona"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp">
+        </TextView>
+
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
